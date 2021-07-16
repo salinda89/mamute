@@ -31,6 +31,5 @@ public class SubscribeUsersToNewQuestion {
 			watchers.add(question, new Watcher(user));
 		}
 		newQuestionMailer.send(subscribed, question);
-
 	}
 }

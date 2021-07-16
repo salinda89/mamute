@@ -38,7 +38,7 @@ public class NewQuestionMailerTest {
 		this.request = mock(HttpServletRequest.class);
 		TemplateMail mail = mock(TemplateMail.class);
 
-		this.questionMailer = new NewQuestionMailer(mailer, templates, bundle, linker, "logo");
+		this.questionMailer = new NewQuestionMailer(templates, bundle, linker, "logo");
 
 		when(request.getRemoteAddr()).thenReturn("127.0.0.1");
 		when(linker.linkTo(QuestionController.class)).thenReturn(questionController);
