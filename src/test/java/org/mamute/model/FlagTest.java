@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 import org.mamute.dao.TestCase;
-import org.mamute.model.Flag;
-import org.mamute.model.FlagType;
 
 public class FlagTest extends TestCase {
 

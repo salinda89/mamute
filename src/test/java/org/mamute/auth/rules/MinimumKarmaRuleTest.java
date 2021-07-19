@@ -5,7 +5,6 @@ import static org.junit.Assert.assertTrue;
 import net.vidageek.mirror.dsl.Mirror;
 
 import org.junit.Test;
-import org.mamute.auth.rules.MinimumKarmaRule;
 import org.mamute.dao.TestCase;
 import org.mamute.model.User;
 

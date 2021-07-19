@@ -10,8 +10,6 @@ import java.util.Arrays;
 
 import org.junit.Test;
 import org.mamute.dao.TestCase;
-import org.mamute.model.flag.FlagAction;
-import org.mamute.model.flag.FlagTrigger;
 import org.mamute.model.interfaces.Flaggable;
 import org.mockito.Mockito;
 

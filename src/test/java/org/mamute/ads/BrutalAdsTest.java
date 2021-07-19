@@ -3,7 +3,6 @@ package org.mamute.ads;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-import org.mamute.ads.BrutalAds;
 import org.mamute.dao.TestCase;
 import org.mamute.model.LoggedUser;
 import org.mamute.model.User;

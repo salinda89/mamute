@@ -11,10 +11,6 @@ import java.util.Map;
 import org.junit.Test;
 import org.mamute.builder.QuestionBuilder;
 import org.mamute.dao.TestCase;
-import org.mamute.model.Answer;
-import org.mamute.model.AnswerAndVotes;
-import org.mamute.model.Question;
-import org.mamute.model.Vote;
 
 public class AnswerAndVotesTest  extends TestCase{
 	private QuestionBuilder question = new QuestionBuilder();

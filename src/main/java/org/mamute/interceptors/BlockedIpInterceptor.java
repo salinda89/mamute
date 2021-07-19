@@ -13,7 +13,6 @@ import org.mamute.infra.ClientIp;
 import org.mamute.model.ban.BlockedIp;
 import org.mamute.model.ban.IpMatcher;
 
-import javax.annotation.Nullable;
 import javax.inject.Inject;
 import java.util.Collection;
 import java.util.List;

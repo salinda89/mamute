@@ -9,12 +9,6 @@ import static org.mamute.model.UpdateStatus.PENDING;
 import org.junit.Test;
 import org.mamute.builder.QuestionBuilder;
 import org.mamute.dao.TestCase;
-import org.mamute.model.Answer;
-import org.mamute.model.AnswerInformation;
-import org.mamute.model.Information;
-import org.mamute.model.LoggedUser;
-import org.mamute.model.Question;
-import org.mamute.model.User;
 
 public class AnswerTest extends TestCase {
     private User author = user("name", "email", 1l);

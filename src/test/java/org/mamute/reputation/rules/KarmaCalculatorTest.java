@@ -13,8 +13,6 @@ import org.mamute.model.Answer;
 import org.mamute.model.Question;
 import org.mamute.model.User;
 import org.mamute.model.VoteType;
-import org.mamute.reputation.rules.KarmaCalculator;
-import org.mamute.reputation.rules.ReceivedVoteEvent;
 
 public class KarmaCalculatorTest extends TestCase {
     private KarmaCalculator karmaCalculator = new KarmaCalculator();

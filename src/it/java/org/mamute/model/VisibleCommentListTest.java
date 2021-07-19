@@ -9,9 +9,6 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 import org.mamute.dao.DatabaseTestCase;
-import org.mamute.model.Comment;
-import org.mamute.model.User;
-import org.mamute.model.VisibleCommentList;
 
 public class VisibleCommentListTest extends DatabaseTestCase{
 	

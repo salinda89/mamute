@@ -5,10 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 import org.mamute.dao.TestCase;
-import org.mamute.model.Comment;
-import org.mamute.model.Flag;
-import org.mamute.model.FlagType;
-import org.mamute.model.User;
 
 public class CommentTest extends TestCase {
 

@@ -7,12 +7,6 @@ import java.util.List;
 
 import org.junit.Test;
 import org.mamute.dao.TestCase;
-import org.mamute.model.Information;
-import org.mamute.model.ModeratableAndPendingHistory;
-import org.mamute.model.Question;
-import org.mamute.model.QuestionInformation;
-import org.mamute.model.QuestionInformationBuilder;
-import org.mamute.model.User;
 
 public class UpdatablesAndPendingHistoryTest extends TestCase {
 

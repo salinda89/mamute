@@ -10,12 +10,6 @@ import org.junit.Test;
 import org.mamute.brutauth.auth.rules.EnvironmentKarma;
 import org.mamute.builder.QuestionBuilder;
 import org.mamute.dao.TestCase;
-import org.mamute.model.LoggedUser;
-import org.mamute.model.Question;
-import org.mamute.model.QuestionInformation;
-import org.mamute.model.UpdateStatus;
-import org.mamute.model.Updater;
-import org.mamute.model.User;
 import org.mamute.vraptor.environment.MamuteEnvironment;
 
 import javax.servlet.ServletContext;

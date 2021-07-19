@@ -4,7 +4,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-import org.mamute.auth.rules.AuthorRule;
 import org.mamute.builder.QuestionBuilder;
 import org.mamute.dao.TestCase;
 import org.mamute.model.Question;

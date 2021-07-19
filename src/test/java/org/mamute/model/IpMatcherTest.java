@@ -1,4 +1,4 @@
-package org.mamute.model.ban;
+package org.mamute.model;
 
 import org.junit.Test;
 

@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.mamute.auth.Access;
 import org.mamute.dao.TestCase;
 import org.mamute.dao.UserDAO;
 import org.mamute.dto.UserAndSession;

@@ -11,7 +11,6 @@ import org.mamute.model.Comment;
 import org.mamute.model.LoggedUser;
 import org.mamute.model.Question;
 import org.mamute.model.User;
-import org.mamute.model.flag.RetrieveKarma;
 
 public class RetrieveKarmaTest extends TestCase{
 

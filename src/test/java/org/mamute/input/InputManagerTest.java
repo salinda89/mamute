@@ -8,7 +8,6 @@ import static org.junit.Assert.assertTrue;
 import org.joda.time.DateTime;
 import org.junit.Test;
 import org.mamute.dao.TestCase;
-import org.mamute.input.InputManager;
 import org.mamute.model.User;
 
 import br.com.caelum.timemachine.Block;

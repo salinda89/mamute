@@ -6,9 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mamute.dao.TestCase;
 import org.mamute.infra.NotFoundException;
-import org.mamute.model.LoggedUser;
-import org.mamute.model.News;
-import org.mamute.model.User;
 
 public class NewsTest extends TestCase {
 	
