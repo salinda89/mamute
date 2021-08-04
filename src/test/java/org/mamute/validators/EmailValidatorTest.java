@@ -29,8 +29,8 @@ public class EmailValidatorTest {
 		validator = new MockValidator();
 		emailValidator = new EmailValidator(validator, users, messageFactory);
 		
-		existant = "existant@brutal.com";
-		unexistant = "unexistant@brutal.com";
+		existant = "existant@grubtechcom";
+		unexistant = "unexistant@grubtech.com";
 		when(users.existsWithEmail(existant)).thenReturn(true);
 		when(users.existsWithEmail(unexistant)).thenReturn(false);
 		when(users.existsWithEmail(null)).thenReturn(false);

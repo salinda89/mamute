@@ -1,6 +1,7 @@
 package org.mamute.model;
 
 import org.junit.Test;
+import org.mamute.model.ban.IpMatcher;
 
 import static org.junit.Assert.*;
 

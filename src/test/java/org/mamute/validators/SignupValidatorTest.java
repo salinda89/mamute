@@ -25,7 +25,7 @@ import br.com.caelum.vraptor.validator.Validator;
 @RunWith(MockitoJUnitRunner.class)
 public class SignupValidatorTest extends TestCase {
 
-    private static final String VALID_EMAIL = "valid@gmail.com";
+    private static final String VALID_EMAIL = "valid@grubtech.com";
 	private static final String VALID_USER_NAME = "valid user valid user";
 	private static final String VALID_PASSWORD = "123456";
 	private Validator validator;
@@ -51,8 +51,8 @@ public class SignupValidatorTest extends TestCase {
 
     @Test
     public void should_verify_email() {
-        when(users.existsWithEmail("used@gmail.com")).thenReturn(true);
-        User user = user(VALID_USER_NAME, "used@gmail.com");
+        when(users.existsWithEmail("used@grubtech.com")).thenReturn(true);
+        User user = user(VALID_USER_NAME, "used@grubtech.com");
         boolean valid = signupValidator.validate(user, VALID_PASSWORD, VALID_PASSWORD);
         
         assertFalse(valid);
