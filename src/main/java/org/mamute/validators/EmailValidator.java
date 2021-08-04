@@ -25,6 +25,10 @@ public class EmailValidator {
 	}
 	
 	public boolean validate(String email) {
+		if (!email.contains("@grubtech.com")) {
+			validator.add(messageFactory.build("error", "user.errors.email.not.allowed"));
+		}
+
 		if (users.existsWithEmail(email)) {
 			validator.add(messageFactory.build("error", "user.errors.email.used"));
 		}
