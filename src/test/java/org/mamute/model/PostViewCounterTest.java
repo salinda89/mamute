@@ -13,8 +13,6 @@ import org.junit.Test;
 import org.mamute.builder.NewsBuilder;
 import org.mamute.builder.QuestionBuilder;
 import org.mamute.dao.TestCase;
-import org.mamute.model.News;
-import org.mamute.model.Question;
 import org.mamute.model.post.PostViewCounter;
 
 public class PostViewCounterTest extends TestCase {

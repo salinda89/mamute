@@ -20,7 +20,6 @@ import org.mamute.dao.TestCase;
 import org.mamute.dao.UserDAO;
 import org.mamute.dto.UserPersonalInfo;
 import org.mamute.factory.MessageFactory;
-import org.mamute.model.SanitizedText;
 import org.mamute.model.User;
 
 import br.com.caelum.vraptor.simplemail.template.BundleFormatter;

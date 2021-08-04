@@ -9,7 +9,6 @@ import org.mamute.model.Answer;
 import org.mamute.model.LoggedUser;
 import org.mamute.model.Question;
 import org.mamute.model.User;
-import org.mamute.model.flag.RemoveSolutionFlaggedByModerator;
 import org.mamute.model.interfaces.Flaggable;
 
 public class RemoveSolutionFlaggedByModeratorTest extends TestCase {

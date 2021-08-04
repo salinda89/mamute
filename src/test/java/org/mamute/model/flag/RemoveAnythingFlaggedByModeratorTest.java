@@ -8,7 +8,6 @@ import org.mamute.dao.TestCase;
 import org.mamute.model.Comment;
 import org.mamute.model.LoggedUser;
 import org.mamute.model.User;
-import org.mamute.model.flag.RemoveAnythingFlaggedByModerator;
 
 public class RemoveAnythingFlaggedByModeratorTest extends TestCase {
 	private User user = user("moderator", "email@brutal.com").asModerator();

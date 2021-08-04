@@ -7,22 +7,11 @@ import static org.mamute.model.UpdateStatus.PENDING;
 import static org.mockito.Mockito.mock;
 
 import org.joda.time.DateTime;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mamute.brutauth.auth.rules.EnvironmentKarma;
 import org.mamute.builder.QuestionBuilder;
 import org.mamute.dao.TestCase;
-import org.mamute.model.Answer;
-import org.mamute.model.Flag;
-import org.mamute.model.FlagType;
-import org.mamute.model.Question;
-import org.mamute.model.QuestionInformation;
-import org.mamute.model.QuestionInformationBuilder;
-import org.mamute.model.Tag;
-import org.mamute.model.User;
-import org.mamute.model.Vote;
-import org.mamute.model.VoteType;
 
 import br.com.caelum.timemachine.Block;
 import br.com.caelum.timemachine.TimeMachine;

@@ -7,9 +7,6 @@ import org.joda.time.DateTime;
 import org.junit.Before;
 import org.junit.Test;
 import org.mamute.dao.TestCase;
-import org.mamute.model.User;
-import org.mamute.model.Vote;
-import org.mamute.model.VoteType;
 import org.mamute.model.vote.MassiveVote;
 
 import br.com.caelum.timemachine.Block;

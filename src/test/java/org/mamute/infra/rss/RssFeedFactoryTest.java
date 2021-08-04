@@ -1,6 +1,5 @@
 package org.mamute.infra.rss;
 
-import static br.com.caelum.vraptor.environment.EnvironmentType.DEVELOPMENT;
 import static org.junit.Assert.assertTrue;
 
 import java.io.ByteArrayOutputStream;
